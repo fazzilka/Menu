@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Меню выделения текста</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="content">
+      <p>Выделите текст, чтобы увидеть меню.</p>
+      <p>
+        Пример текста для выделения. Этот текст можно изменить с помощью LLM.
+      </p>
+    </div>
+
+    <!-- Меню, которое появляется при выделении текста -->
+    <div id="contextMenu" class="context-menu">
+      <button id="editWithLLM">Изменить с помощью LLM</button>
+      <button id="saveToVectorDB">Сохранить в векторную БД</button>
+      <button id="searchInVectorDB">Искать в векторной БД</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
